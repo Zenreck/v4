@@ -15,7 +15,7 @@ const server = http.createServer();
 const bareServer = createBareServer('/bear/');
 const app = express(server);
 const version = packageJson.version;
-const discord = 'https://discord.gg/unblocking';
+const discord = 'https://discord.gg/C5qJ6msavM';
 const routes = [
   { route: '/app', file: './static/index.html' },
   { route: '/portal', file: './static/loader.html' },
